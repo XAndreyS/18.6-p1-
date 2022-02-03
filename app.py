@@ -14,7 +14,7 @@ def start (message: telebot.types.Message):
 def help (message: telebot.types.Message):
     text = 'Чтобы начать работу введите команду боту в следующем формате: \n<имя валюты>\
     <в какую валюту перевести>\
-    <количество перевадимой валюты>\nУвидеть список всех доступных валют: /values'
+    <количество перевадимой валюты>\nНапрмер:\nдоллар рубль 2\nУвидеть список всех доступных валют: /values'
     bot.reply_to(message, text)
 
 @bot.message_handler(commands=['values'])
