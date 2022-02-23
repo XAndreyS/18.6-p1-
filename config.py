@@ -1,7 +1,7 @@
 
 
 
-TOKEN = '5156937134:AAFvveMo7eB3_-_mqK8SzqoSqWmi87kTwnM'
+TOKEN = 'см в файле TOKEN.txt'
 
 keys = {
     'биткоин': 'BTC',
